@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include<unistd.h>
+int main () 
+{
+  int r =fork();
+  if (r==0){
+  int  a = a + 10;
+    printf("Child Process id %d \n \n", r);
+  }
+else {
+ int  a = a - 10;
+  printf("Parent process id %d \n \n",r);
+  }
+  
+  printf("Forking and then finally folked");
+}
